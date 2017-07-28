@@ -55,3 +55,13 @@ function draw() {
 function windowResized() {
   resizeCanvas(windowWidth,windowHeight);
 }
+
+function add(n_rate) {
+  add = true;
+  rate = n_rate;
+}
+
+function mult(n_rate) {
+  add = false;
+  rate = n_rate;
+}
